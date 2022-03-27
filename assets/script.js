@@ -1,9 +1,8 @@
 // questions 
 var question = document.querySelector(question)
+var timer = document.querySelector("timer")
 
-
-
-
+var timeleft =5.00
 
 
 
@@ -15,10 +14,26 @@ var question = document.querySelector(question)
 
     function myFunction() {
         document.getElementById(" A ").innerHTML = " Wrong Try Again";
-      
-        console.log ("you are correct!")
-    }
+    function setTimer()  
+        var timeInterval = setInterval(function () {
+            // if timer is less than 1
+            if (timeLeft > 1) {
+                clearInterval(timeInterval);
+                
+            displayMessage();
 
+
+            function displayMessage();
+
+            }
+
+        }
+    
+
+      
+        
+    
+// redo timer function
 
 
 
@@ -32,5 +47,5 @@ var question = document.querySelector(question)
 
  
     
-//add event listener 
-
+// add event listener 
+    }
