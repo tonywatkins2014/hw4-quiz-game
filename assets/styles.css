@@ -1,19 +1,17 @@
  *{
-   box-sizing:border-box
+   margin: 0;
+   border: 0;
   }
   body{
-    h3{
+     display: grid;
+     margin: 80%;
+     border: 60ch;
+     background-color:gray;
+     
+
+    }
+
     
-    font-family: arial;
-    Color: blue;
-    padding: 30%;
-    }
-    h4{
-
-    }
-    h5{
-
-    }
   question-1{ 
     font-family:Times;
     padding: 0%;
@@ -26,13 +24,12 @@
     question-3{
 
     }
+    Score-set{
+      font-display: arial;
+      width: 30px;
+      height: 90px;
+      background: fixed;
+      font-family: arial, sans-serif;
+    }
 
-  
-
- <!--make-a-header-tag-->
-
-  
-
-  make- main-tags,-aswell-as-sections-->
-
- --make-a-footer-->
+    <!--button-submit--> {}

@@ -1,9 +1,8 @@
 // questions 
 var question = document.querySelector(question)
 var timer = document.querySelector("timer")
-
-var timeleft =5.00
-
+var timerid = null
+var num = count(2.00)
 
 
 
@@ -47,5 +46,4 @@ var timeleft =5.00
 
  
     
-// add event listener 
-    }
+// add event listener
