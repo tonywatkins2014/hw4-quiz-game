@@ -1,39 +1,49 @@
 // questions 
 var question = document.querySelector(question)
-var timer = document.querySelector("timer")
-var timerid = null
-var num = count(2.00)
+var timer = document.querySelector("timer");
+var timerid = ("null");
+var num = count("2.00");
+ // timer will run for 2 min
+var count = ( function () {
 
-
+    let num = 10
+    return (function() {return num-- } )
+})
+<
 
 
 //button function 
-    if ("Incorrect-Answer-is-chosen" )
-    <button onclick="myFunction()"> A </button>
-
-    function myFunction() {
-        document.getElementById(" A ").innerHTML = " Wrong Try Again";
-    function setTimer()  
-        var timeInterval = setInterval(function () {
-            // if timer is less than 1
-            if (timeLeft > 1) {
-                clearInterval(timeInterval);
-                
-            displayMessage();
 
 
-            function displayMessage();
+ function (countdown)
+{
+    var info = document.querySelectorAll('info')
+    let timerId = null
+    let num = count()
 
-            }
+}  
+ // if time is less than 1 
+if (timeleft > 0)
+{
+Else 
+}
 
-        }
-    
+timerId = window.setTimeout(timerId)
+Event.preventDefault
+
+
+countdown()
 
       
         
     
-// redo timer function
+// scoreboard
+function scoreboard 
 
+if (correct)answer1 return
+console.log(info);
+console.log(timer);
+console.log(count);
 
 
 
